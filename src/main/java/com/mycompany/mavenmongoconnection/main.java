@@ -24,6 +24,8 @@ public class main extends ConnectionMySQL{
         } else {
             System.out.println("Erro");
         }
+        TestForGit test = new TestForGit();
+        test.PrintMessage();
     }
     
 }
